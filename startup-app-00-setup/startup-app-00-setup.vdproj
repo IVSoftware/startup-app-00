@@ -15,8 +15,44 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_00A2BE97DA5944C2B895431A2B5D9F5C"
+        "MsmKey" = "8:_290E424F26244832AF6F03F5C18F0BF4"
         "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_5798A2754C0B4DE8817E6F162877CF24"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_5B8EC869CB644B5EAC15FF9AE5905BF3"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_CF91B736BFC44DA29345812A5EB1FD98"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_FA97E1BA1B054B1CA727091C489AE2F0"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_FE4BAF2E42DF43FCBA77F18893CEDCAD"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_5B8EC869CB644B5EAC15FF9AE5905BF3"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -124,6 +160,137 @@
         }
         "File"
         {
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_290E424F26244832AF6F03F5C18F0BF4"
+            {
+            "SourcePath" = "8:..\\startup-app-00\\bin\\Debug\\net7.0-windows\\startup-app-00.pdb"
+            "TargetName" = "8:startup-app-00.pdb"
+            "Tag" = "8:"
+            "Folder" = "8:_C9D67CBFBE7D4D9B8A129CB7185F5309"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_5798A2754C0B4DE8817E6F162877CF24"
+            {
+            "SourcePath" = "8:..\\startup-app-00\\bin\\Debug\\net7.0-windows\\startup-app-00.exe"
+            "TargetName" = "8:startup-app-00.exe"
+            "Tag" = "8:"
+            "Folder" = "8:_C9D67CBFBE7D4D9B8A129CB7185F5309"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_5B8EC869CB644B5EAC15FF9AE5905BF3"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:startup-app-00, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_5B8EC869CB644B5EAC15FF9AE5905BF3"
+                    {
+                    "Name" = "8:startup-app-00.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:..\\startup-app-00\\bin\\Debug\\net7.0-windows\\startup-app-00.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_C9D67CBFBE7D4D9B8A129CB7185F5309"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_CF91B736BFC44DA29345812A5EB1FD98"
+            {
+            "SourcePath" = "8:..\\startup-app-00\\bin\\Debug\\net7.0-windows\\startup-app-00.runtimeconfig.json"
+            "TargetName" = "8:startup-app-00.runtimeconfig.json"
+            "Tag" = "8:"
+            "Folder" = "8:_C9D67CBFBE7D4D9B8A129CB7185F5309"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_FA97E1BA1B054B1CA727091C489AE2F0"
+            {
+            "SourcePath" = "8:..\\startup-app-00\\bin\\Debug\\net7.0-windows\\startup-app-00.deps.json"
+            "TargetName" = "8:startup-app-00.deps.json"
+            "Tag" = "8:"
+            "Folder" = "8:_C9D67CBFBE7D4D9B8A129CB7185F5309"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_FE4BAF2E42DF43FCBA77F18893CEDCAD"
+            {
+            "SourcePath" = "8:..\\startup-app-00\\bin\\Debug\\net7.0-windows\\startup-app-00.dll.config"
+            "TargetName" = "8:startup-app-00.dll.config"
+            "Tag" = "8:"
+            "Folder" = "8:_C9D67CBFBE7D4D9B8A129CB7185F5309"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
         }
         "FileType"
         {
@@ -181,7 +348,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:startup-app-00-setup"
         "ProductCode" = "8:{A64447E8-313F-472C-9026-1F8DBE6DEB8E}"
-        "PackageCode" = "8:{3221345E-9200-4D7C-8363-555728A31C56}"
+        "PackageCode" = "8:{77D25D92-DBE6-4C30-AB18-79B4E53CED02}"
         "UpgradeCode" = "8:{823E41D4-3061-4956-AD00-F16B17927C9B}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -297,11 +464,11 @@
                                                         {
                                                             "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_EC971867C4BB479B976CDD5C7028DE6E"
                                                             {
-                                                            "Name" = "8:startup-app-00"
+                                                            "Name" = "8:Startup App"
                                                             "Condition" = "8:"
                                                             "Transitive" = "11:FALSE"
                                                             "ValueTypes" = "3:1"
-                                                            "Value" = "8:"
+                                                            "Value" = "8:\"C:\\Program Files (x86)\\SO\\startup-app-00\\startup-app-00.exe\""
                                                             }
                                                         }
                                                     }
@@ -750,34 +917,6 @@
         }
         "ProjectOutput"
         {
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_00A2BE97DA5944C2B895431A2B5D9F5C"
-            {
-            "SourcePath" = "8:..\\startup-app-00\\obj\\Debug\\net7.0-windows\\startup-app-00.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_C9D67CBFBE7D4D9B8A129CB7185F5309"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            "ProjectOutputGroupRegister" = "3:1"
-            "OutputConfiguration" = "8:"
-            "OutputGroupCanonicalName" = "8:Built"
-            "OutputProjectGuid" = "8:{530A971A-8E80-4FB8-995C-8A6CF73942F6}"
-            "ShowKeyOutput" = "11:TRUE"
-                "ExcludeFilters"
-                {
-                }
-            }
         }
     }
 }

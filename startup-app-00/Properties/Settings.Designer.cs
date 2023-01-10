@@ -25,25 +25,25 @@ namespace startup_app_00.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Startup value 1")]
-        public string Textbox1 {
+        [global::System.Configuration.DefaultSettingValueAttribute("IVSoftware")]
+        public string dbusername {
             get {
-                return ((string)(this["Textbox1"]));
+                return ((string)(this["dbusername"]));
             }
             set {
-                this["Textbox1"] = value;
+                this["dbusername"] = value;
             }
         }
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Startup value 2")]
-        public string Textbox2 {
+        [global::System.Configuration.DefaultSettingValueAttribute("unsafe_password")]
+        public string dbpassword {
             get {
-                return ((string)(this["Textbox2"]));
+                return ((string)(this["dbpassword"]));
             }
             set {
-                this["Textbox2"] = value;
+                this["dbpassword"] = value;
             }
         }
     }

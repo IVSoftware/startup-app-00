@@ -2,11 +2,11 @@
 <SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="startup_app_00.Properties" GeneratedClassName="Settings">
   <Profiles />
   <Settings>
-    <Setting Name="Textbox1" Type="System.String" Scope="User">
-      <Value Profile="(Default)">Startup value 1</Value>
+    <Setting Name="dbusername" Type="System.String" Scope="User">
+      <Value Profile="(Default)">IVSoftware</Value>
     </Setting>
-    <Setting Name="Textbox2" Type="System.String" Scope="User">
-      <Value Profile="(Default)">Startup value 2</Value>
+    <Setting Name="dbpassword" Type="System.String" Scope="User">
+      <Value Profile="(Default)">unsafe_password</Value>
     </Setting>
   </Settings>
 </SettingsFile>

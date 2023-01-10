@@ -28,33 +28,67 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBoxLoginUsername = new System.Windows.Forms.TextBox();
+            this.textBoxLoginPassword = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.buttonLogin = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // textBox1
+            // textBoxLoginUsername
             // 
-            this.textBox1.Location = new System.Drawing.Point(28, 37);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(296, 31);
-            this.textBox1.TabIndex = 0;
+            this.textBoxLoginUsername.Location = new System.Drawing.Point(122, 78);
+            this.textBoxLoginUsername.Name = "textBoxLoginUsername";
+            this.textBoxLoginUsername.Size = new System.Drawing.Size(296, 31);
+            this.textBoxLoginUsername.TabIndex = 0;
             // 
-            // textBox2
+            // textBoxLoginPassword
             // 
-            this.textBox2.Location = new System.Drawing.Point(28, 74);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(296, 31);
-            this.textBox2.TabIndex = 0;
+            this.textBoxLoginPassword.Location = new System.Drawing.Point(122, 115);
+            this.textBoxLoginPassword.Name = "textBoxLoginPassword";
+            this.textBoxLoginPassword.PasswordChar = '*';
+            this.textBoxLoginPassword.Size = new System.Drawing.Size(296, 31);
+            this.textBoxLoginPassword.TabIndex = 0;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(15, 84);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(99, 25);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "User Name";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(15, 118);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(87, 25);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Password";
+            // 
+            // buttonLogin
+            // 
+            this.buttonLogin.Location = new System.Drawing.Point(306, 177);
+            this.buttonLogin.Name = "buttonLogin";
+            this.buttonLogin.Size = new System.Drawing.Size(112, 34);
+            this.buttonLogin.TabIndex = 2;
+            this.buttonLogin.Text = "Login";
+            this.buttonLogin.UseVisualStyleBackColor = true;
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(478, 244);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.buttonLogin);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.textBoxLoginPassword);
+            this.Controls.Add(this.textBoxLoginUsername);
             this.Name = "MainForm";
-            this.Text = "Main Form";
+            this.Text = "Startup App";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -62,7 +96,10 @@
 
         #endregion
 
-        private TextBox textBox1;
-        private TextBox textBox2;
+        private TextBox textBoxLoginUsername;
+        private TextBox textBoxLoginPassword;
+        private Label label1;
+        private Label label2;
+        private Button buttonLogin;
     }
 }
