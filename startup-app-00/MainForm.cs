@@ -7,28 +7,20 @@ namespace startup_app_00
             InitializeComponent();
             textBoxLoginUsername.Text = Properties.Settings.Default.dbusername;
             textBoxLoginPassword.Text = Properties.Settings.Default.dbpassword;
-
-            // Commit changes
-            textBoxLoginUsername.KeyDown += TextBoxLoginUsername_KeyDown;
-            textBoxLoginPassword.KeyDown += TextBoxLoginPassword_KeyDown;
+            buttonLogin.Click += onClickLogin;
         }
 
-        private void TextBoxLoginUsername_KeyDown(object? sender, KeyEventArgs e)
+        private void onClickLogin(object? sender, EventArgs e)
         {
-            if(e.KeyData.Equals(Keys.Enter)) 
+            if(tryLoginWithCredentials())
             {
                 Properties.Settings.Default.dbusername = textBoxLoginUsername.Text;
+                Properties.Settings.Default.dbpassword = textBoxLoginUsername.Text;
                 Properties.Settings.Default.Save();
+                Text = $"Logged in as {Properties.Settings.Default.dbusername}";
             }
         }
 
-        private void TextBoxLoginPassword_KeyDown(object? sender, KeyEventArgs e)
-        {
-            if (e.KeyData.Equals(Keys.Enter))
-            {
-                Properties.Settings.Default.dbpassword = textBoxLoginUsername.Text;
-                Properties.Settings.Default.Save();
-            }
-        }
+        private bool tryLoginWithCredentials() => true; // Succeeded (for testing purposes).
     }
 }
